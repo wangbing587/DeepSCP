@@ -772,10 +772,10 @@ def main(evidenve_file, msms_file, lbmsms_file):
                                 peptide_column=peptide_column,
                                 intensity_columns=intensity_columns)
 
-    data_set.to_csv('../data/DeepSCP_evidence.txt', sep='\t', index=False)
-    data.to_csv('../data/DeepSCP_evidence_filter.txt', sep='\t', index=False)
-    df_pro.to_csv('../data/DeepSCP_pro.csv')
-    df_pep.to_csv('../data/DeepSCP_pep.csv')
+    data_set.to_csv('DeepSCP_evidence.txt', sep='\t', index=False)
+    data.to_csv('DeepSCP_evidence_filter.txt', sep='\t', index=False)
+    df_pro.to_csv('DeepSCP_pro.csv')
+    df_pep.to_csv('DeepSCP_pep.csv')
 
 
 if __name__ == '__main__':
